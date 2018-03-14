@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Screen Recording</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="take_only_screenshot_app">Take only screenshot App</string>
+    <string name="take_only_screenshot_view">Take only screenshot View (Button)</string>
+    <string name="take_screenshot_display">Take screenshot display</string>
+    <string name="recording_display_off">Start recording Display</string>
+    <string name="recording_display_on">Stop recording Display</string>
+    <string name="open">Open</string>
+</resources>

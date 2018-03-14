@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:id="@+id/linearayout">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/button"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/screenshotApp"
+            android:text="@string/take_only_screenshot_app"        />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/screenshotView"
+            android:text="@string/take_only_screenshot_view" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/screenshotDisplay"
+            android:text="@string/take_screenshot_display" />
+
+        <ToggleButton
+            android:id="@+id/recodingDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textOff="@string/recording_display_off"
+            android:textOn="@string/recording_display_on"
+
+            />
+
+        <Button
+            android:id="@+id/intent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+</LinearLayout>
